@@ -1,7 +1,7 @@
 import * as express from 'express';
 import * as ws from 'ws';
 
-class Server {
+class App {
     Start() {
         /**
          * Express Server
@@ -26,5 +26,5 @@ class Server {
     }
 }
 
-const server = new Server();
-server.Start();
+const app = new App();
+app.Start();
