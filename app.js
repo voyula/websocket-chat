@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const express = require("express");
 const ws = require("ws");
-class Server {
+class App {
     Start() {
         /**
          * Express Server
@@ -25,5 +25,5 @@ class Server {
         console.log('WebSocket server is started on port %s', 8680);
     }
 }
-const server = new Server();
-server.Start();
+const app = new App();
+app.Start();
