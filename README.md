@@ -1,11 +1,11 @@
-# 💬websocket-chat
+# 💬 websocket-chat
 
 [![Build Status][ico-travis]][link-travis]
 [![License][ico-license]][link-license]
 
 Chat based on WebSocket protocol.
 
-## ⚡Installation
+## ⚡ Installation
 
 Via GIT & NPM
 
@@ -15,27 +15,27 @@ $ cd websocket-chat
 $ npm install --only=prod
 ```
 
-## 🐣Running
+## 🐣 Running
 
 ```bash
 $ node app.js
 ```
 Your app should now be running on [http://localhost:3000/](http://localhost:3000/)
 
-### 📜Standards
+### 📜 Standards
 
 - [Semantic Versioning 2.0.0](https://semver.org/)
 
-### 🛠Contributing
+### 🛠 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-### 🎙Credits
+### 🎙 Credits
 
 - [voyula](https://github.com/voyula)
 - [All Contributors](../../contributors)
 
-### 📌License
+### 📌 License
 
 Licensed under the MIT License. See [License File](LICENSE.md) for more information.
 
