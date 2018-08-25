@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
-const minifyCSS = require('gulp-csso');
+const csso = require('gulp-csso');
 
 gulp.task('library-materialize-css', () => gulp.src('node_modules/materialize-css/dist/**/*')
   .pipe(gulp.dest('dist/libs/materialize-css')));
@@ -13,7 +13,7 @@ gulp.task('library-jquery', () => gulp.src('node_modules/jquery/dist/jquery.min.
 gulp.task('css', () => gulp.src('src/web/client.scss')
   .pipe(sass())
   .pipe(concat('client.min.css'))
-  .pipe(minifyCSS())
+  .pipe(csso())
   .pipe(gulp.dest('dist')));
 
 gulp.task('js', () => gulp.src('src/web/client.js')
