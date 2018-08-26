@@ -17,7 +17,7 @@ class App {
          * WebSocket Server
          */
         const wss = new ws.Server({ port: 8680 });
-        wss.on('connection', (socket) => socket.on('message', (message) => wss.clients.forEach((client) => {
+        wss.on('connection', (socket: ws) => socket.on('message', (message: string) => wss.clients.forEach((client) => {
             if (client.readyState === ws.OPEN) {
                 client.send(message);
             }
