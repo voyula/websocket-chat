@@ -4,6 +4,6 @@ node_js:
   - stable
 cache:
   directories:
-    - "node_modules"
+    - node_modules
 install:
   - npm install --only=prod
