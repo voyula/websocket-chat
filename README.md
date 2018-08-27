@@ -12,7 +12,8 @@ Via GIT & NPM
 ```bash
 $ git clone https://github.com/voyula/websocket-chat.git
 $ cd websocket-chat
-$ npm install --only=prod
+$ npm install
+$ npm run build
 ```
 
 ## 🐣 Running
