@@ -10,15 +10,15 @@ html(lang="en")
     body
 
         nav.blue
-            div(class="nav-wrapper container")
-                a(href="/" class="brand-logo center") websocket-chat
+            .nav-wrapper.container
+                a.brand-logo.center(href="/") websocket-chat
 
         .container
-            div(id="chat-box" class="card-panel chat-box blue z-depth-2")
+            #chat-box.card-panel.chat-box.blue.z-depth-2
 
-            div(class="card-panel purple darken-2")
-                div(class="input-field white-text")
-                    input(type="text" id="message" placeholder="Type your message here and press Enter to send..." autofocus="true")
+            .card-panel.purple.darken-2
+                .input-field.white-text
+                    input#message(type="text" placeholder="Type your message here and press Enter to send..." autofocus="true")
 
         script(src="/libs/jquery.min.js")
         script(src="/libs/materialize-css/js/materialize.min.js")
