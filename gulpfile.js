@@ -6,7 +6,7 @@ const csso = require('gulp-csso');
 
 gulp.task('library-materialize-css', () => {
     return gulp.src('node_modules/materialize-css/dist/**/*')
-        .pipe(gulp.dest('dist/libs/materialize-css'));
+        .pipe(gulp.dest('dist/libs/materialize-css'))
 });
 
 gulp.task('library-jquery', () => {
