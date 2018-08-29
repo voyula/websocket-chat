@@ -11,7 +11,7 @@ class App {
         app.use(express.static('dist'));
         app.get('/', (req: express.Request, res: express.Response) => res.render('index'));
         app.listen(3000);
-        console.log('Express server is started on port %s', 3000);
+        console.log('Express server is started on port %d', 3000);
 
         /**
          * WebSocket Server
@@ -22,7 +22,7 @@ class App {
                 client.send(message);
             }
         })));
-        console.log('WebSocket server is started on port %s', 8680);
+        console.log('WebSocket server is started on port %d', 8680);
     }
 }
 
