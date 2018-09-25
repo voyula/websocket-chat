@@ -15,7 +15,7 @@
     "chat",
     "websocket"
   ],
-  "author": "vapahy",
+  "author": "voyula",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/voyula/websocket-chat/issues"
