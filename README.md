@@ -28,6 +28,16 @@ $ node app.js
 ```
 Your app should now be running on [http://localhost:3000/](http://localhost:3000/)
 
+### Tree
+
+```bash
+├───src
+│   ├───server
+│   └───web
+├───test
+└───views
+```
+
 ### 📜 Standards
 
 - [Semantic Versioning 2.0.0](https://semver.org/)
