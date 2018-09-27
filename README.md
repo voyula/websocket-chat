@@ -16,7 +16,7 @@ $ npm install
 $ npm run build
 ```
 
-#### 🐳 Using Docker(optional)
+##### 🐳 Using Docker(optional)
 ```bash
 $ docker-compose up
 ```
@@ -28,7 +28,7 @@ $ node app.js
 ```
 Your app should now be running on [http://localhost:3000/](http://localhost:3000/)
 
-### Tree
+## Directory Tree
 
 ```bash
 ├───src
