@@ -16,7 +16,7 @@ $ npm install
 $ npm run build
 ```
 
-#### 🐳Using Docker(optional)
+#### 🐳 Using Docker(optional)
 ```bash
 $ docker-compose up
 ```
