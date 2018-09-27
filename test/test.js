@@ -1,5 +1,5 @@
 describe('Example', () => {
-    it('should true', () => {
+    it('should be true', () => {
       true;
     });
 });
