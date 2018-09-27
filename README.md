@@ -28,7 +28,7 @@ $ node app.js
 ```
 Your app should now be running on [http://localhost:3000/](http://localhost:3000/)
 
-## Directory Tree
+### 🌳 Directory Tree
 
 ```bash
 ├───src
