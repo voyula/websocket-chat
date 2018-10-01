@@ -1,7 +1,7 @@
 "use strict";
 (function ($) {
     $(function () {
-        var ws = new WebSocket("ws://localhost:8680");
+        var ws = new WebSocket("ws://" + location.hostname + ":8680");
         ws.onopen = function () {
             push("Connected to server!");
         };
