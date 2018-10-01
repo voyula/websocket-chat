@@ -4,4 +4,5 @@ COPY . /app
 RUN npm install --silent
 RUN npm install gulp-cli typescript -g && npm run build
 EXPOSE 3000
+EXPOSE 8680
 CMD node app.js
