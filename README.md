@@ -44,7 +44,7 @@ Your app should now be running on [http://localhost:3000/](http://localhost:3000
 
 ### 🛠 Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+See [CONTRIBUTING](CONTRIBUTING.md) file for details.
 
 ### 🎙 Credits
 
