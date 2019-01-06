@@ -7,7 +7,7 @@ Chat based on WebSocket protocol.
 
 ## ⚡ Installation
 
-Via GIT & NPM
+Via [GIT](https://git-scm.com/) & [NPM](https://www.npmjs.com/)
 
 ```bash
 $ git clone https://github.com/voyula/websocket-chat.git
